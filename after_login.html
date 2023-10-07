@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head style="color: rgb(26, 25, 25);">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+    <style>
+        #particles {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+        .carousel {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .carousel-item img {
+            width: 80%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="particles"></div>
+    <div style="text-align: center;font-size: 300%;">
+        ＴＥＣＨ ＳＯＣＩＥＴＹ
+    </div>
+    <div class="container mt-5">
+        <div id="carouselll1" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/images/1.jpeg" class="d-block w-100" alt="First Slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/images/2.jpeg" class="d-block w-100" alt="Second Slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/images/3.jpeg" class="d-block w-100" alt="Third Slide">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselll1"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselll1"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div style="text-align: center;font-size: 100%;">
+        <a href="https://www.instagram.com/direct/t/17845032941874746">Reach us here</a><br><br>
+    </div>
+
+    <div style="text-align: center;font-size: 300%;">
+        Ｅ-ＣＥＬＬ ＳＯＣＩＥＴＹ
+    </div>
+    <div class="container mt-5">
+        <div id="carouselExample2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/images/4.jpeg" class="d-block w-100" alt="First Slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/images/5.jpeg" class="d-block w-100" alt="Second Slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/images/6.jpeg" class="d-block w-100" alt="Third Slide">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div style="text-align: center;font-size: 100%;">
+        <a href="https://www.instagram.com/direct/t/100115874723287">Reach us here</a>
+    </div>
+    <script>
+particlesJS("particles", {
+	"particles": {
+		"number": {
+			"value": 134,
+			"density": {
+				"enable": true,
+				"value_area": 800
+			}
+		},
+		"color": {
+			"value": "#ffffff"
+		},
+		"shape": {
+			"type": "circle",
+			"stroke": {
+				"width": 0,
+				"color": "#000000"
+			},
+			"polygon": {
+				"nb_sides": 5
+			},
+			"image": {
+				"src": "img/github.svg",
+				"width": 100,
+				"height": 100
+			}
+		},
+		"opacity": {
+			"value": 0.5,
+			"random": false,
+			"anim": {
+				"enable": false,
+				"speed": 1,
+				"opacity_min": 0.1,
+				"sync": false
+			}
+		},
+		"size": {
+			"value": 3,
+			"random": true,
+			"anim": {
+				"enable": false,
+				"speed": 40,
+				"size_min": 0.1,
+				"sync": false
+			}
+		},
+		"line_linked": {
+			"enable": true,
+			"distance": 150,
+			"color": "#ffffff",
+			"opacity": 0.4,
+			"width": 1
+		},
+		"move": {
+			"enable": true,
+			"speed": 6,
+			"direction": "none",
+			"random": false,
+			"straight": false,
+			"out_mode": "out",
+			"bounce": false,
+			"attract": {
+				"enable": false,
+				"rotateX": 600,
+				"rotateY": 1200
+			}
+		}
+	},
+	"interactivity": {
+		"detect_on": "canvas",
+		"events": {
+			"onhover": {
+				"enable": true,
+				"mode": "repulse"
+			},
+			"onclick": {
+				"enable": true,
+				"mode": "push"
+			},
+			"resize": true
+		},
+		"modes": {
+			"grab": {
+				"distance": 400,
+				"line_linked": {
+					"opacity": 1
+				}
+			},
+			"bubble": {
+				"distance": 400,
+				"size": 40,
+				"duration": 2,
+				"opacity": 8,
+				"speed": 3
+			},
+			"repulse": {
+				"distance": 200,
+				"duration": 0.4
+			},
+			"push": {
+				"particles_nb": 4
+			},
+			"remove": {
+				"particles_nb": 2
+			}
+		}
+	},
+	"retina_detect": true
+})
+    </script>
+</body>
+
+</html>
